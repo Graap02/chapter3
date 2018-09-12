@@ -1,0 +1,24 @@
+package tutorial;
+
+import java.util.Scanner;
+
+public class QuartsToGallonsInteractive {
+
+	public static void main(String[] args) {
+
+		final int quartsInGallons = 4;
+		
+		int quartsNeeded;
+		int gallonsNeeded;
+		int extraQuarts;
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -7,15 +7,40 @@ public class FahrenheittoCelsius {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		double ftemp;
-	
+		double ftemp2;
+		double ftemp3;
+		double Celsius;
+		double Celsius2;
+		double Celsius3;
+		
+		
 		System.out.println("What is the temperature at 8? ");
 		ftemp = input.nextDouble();
-		
-
-		double Celsius;
 		Celsius = (ftemp - 32) * 5/9;
+	
+		System.out.println("The temperature in celsius is " + Celsius);
 		
-		System.out.println("The temperature is " + Celsius + " celsius");
+		
+		System.out.println("What is the temperature at Noon? ");
+		ftemp2 = input.nextDouble();
+		Celsius2 = (ftemp2 - 32) * 5/9;
+	
+		System.out.println("The temperature in celsius is " + Celsius2);
+		
+		System.out.println("What is the temperature at 5? ");
+		ftemp3 = input.nextDouble();
+		Celsius3 = (ftemp3 - 32) * 5/9;
+	
+		System.out.println("The temperature in celsius is " + Celsius3);
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 

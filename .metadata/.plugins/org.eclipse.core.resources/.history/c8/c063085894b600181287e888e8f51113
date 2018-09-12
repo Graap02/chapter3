@@ -1,0 +1,30 @@
+package tutorial;
+
+import java.util.Scanner;
+
+public class QuartsToGallonsInteractive {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner input = new Scanner(System.in);
+		
+		
+		
+		
+	}
+	public static void displayConversion() {
+		final int quartsInGallons = 4;
+		int gallonsNeeded;
+		int extraQuarts;
+		int quartsNeeded;
+		
+		
+		
+		gallonsNeeded = quartsNeeded / quartsInGallons;
+		extraQuarts = quartsNeeded % quartsInGallons;
+		
+		System.out.println("You have " + gallonsNeeded + " gallons and " + extraQuarts + " quarts left over");
+
+}
+}

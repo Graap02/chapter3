@@ -1,0 +1,36 @@
+package excercises;
+
+import java.util.Scanner;
+
+public class FahrenheittoCelsius {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		double ftemp;
+	
+		System.out.println("What is the temperature at 8? ");
+		ftemp = input.nextDouble();
+		double Celsius;
+		Celsius = (ftemp - 32) * 5/9;
+		double Celsius2;
+		Celsius2 = (ftemp - 32) * 5/9;
+		double Celsius3;
+		Celsius3 = (ftemp - 32) * 5/9;
+		
+		
+		System.out.println("The temperature is " + Celsius + " celsius");
+		
+		
+		System.out.println("What is the temperature at Noon? ");
+		ftemp = input.nextDouble();
+		
+		System.out.println("The temperature is " + Celsius2 + " celsius");
+		
+		System.out.println("What is the temperature at 5? ");
+		ftemp = input.nextDouble();
+		
+		System.out.println("The temperature is " + Celsius3 + " celsius");
+		
+	}
+
+}
