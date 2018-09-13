@@ -1,0 +1,14 @@
+package excercises;
+
+public class Percentages {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double x = 5;
+		double y = 12;
+		
+
+	}
+
+}
