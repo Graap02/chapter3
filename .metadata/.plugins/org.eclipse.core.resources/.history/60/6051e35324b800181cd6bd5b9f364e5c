@@ -1,0 +1,29 @@
+package excercises;
+
+import java.util.Scanner;
+
+public class Testlbls {
+
+	public static void main(String[] args) {
+		int pounds;
+System.out.print("How much do you weigh? ");
+Scanner input = new Scanner(System.in);
+pounds = input.nextInt();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package excercises;
+
+import java.util.Scanner;
+
+public class BookstoreCredit {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		String gpaandname;
+		System.out.print("Please enter your name and your grade point average >> ");
+		gpaandname = input.nextLine();
+		
+		
+
+
+	}
+
+}

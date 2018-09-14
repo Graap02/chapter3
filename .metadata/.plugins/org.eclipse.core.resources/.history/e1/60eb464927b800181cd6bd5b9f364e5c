@@ -1,0 +1,41 @@
+package excercises;
+
+import java.util.Scanner;
+
+public class Testlbls {
+
+	public static void main(String[] args) 
+	{
+		int x;
+		Scanner input = new Scanner(System.in);
+		System.out.print("Please enter your weight >> ");
+		x = input.nextInt();
+		displayPoundstoOunces(x);
+		displayPoundstoKilos(x);
+		displayPoundstoMilligrams(x);
+		
+	}
+public static void displayPoundstoOunces(int x) {
+	double ounces;
+	
+	ounces = x * 16;
+	
+	System.out.println("You weigh " + ounces + " in ounces");
+
+}
+public static void displayPoundstoKilos(int x) {
+	double kilos;
+	
+	kilos = x * .45359237;
+	
+	System.out.println("You weigh " + kilos + " in kilos");
+}
+public static void displayPoundstoMilligrams(int x) {
+	double milligrams;
+	
+	milligrams = x * 453592.37;
+	
+	System.out.println("You weigh " + milligrams + " in milligrams");
+}
+
+}

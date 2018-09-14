@@ -15,9 +15,5 @@ public class SpaService {
 	
 public void setServiceDescription(String service) {
 	}
-
-
-
-
-
+	serviceDescription  service;
 }
