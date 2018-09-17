@@ -1,7 +1,5 @@
 package youDoIt;
 
-import java.util.Scanner;
-
 public class SpaService {
 	private String serviceDescription;
 	private double price;
@@ -28,17 +26,7 @@ public double getPrice()
 	return price;
 }
 }
-public class CreateSpaServices{
 
-
-
-	public static void main(String[] args) {
-	}
-	String service;
-	Double price;
-	
-	
-	}
 
 
 
