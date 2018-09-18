@@ -14,7 +14,7 @@ public class FahrenheittoCelsius
 		double Celsius2;
 		double Celsius3;
 		double average;
-		
+		displayAverage(average);
 		
 		
 		System.out.println("What is the temperature at 8? ");
@@ -33,10 +33,11 @@ public class FahrenheittoCelsius
 		System.out.println("What is the temperature at 5? ");
 		ftemp3 = input.nextDouble();
 		Celsius3 = (ftemp3 - 32) * 5/9;
-		System.out.println("The temperature in celsius is " + Celsius3);
 		
 		average = ftemp + ftemp2 + ftemp3 / 3;
-		displayAverage(average);
+		System.out.println("The average today is going to be " + average);
+	
+		System.out.println("The temperature in celsius is " + Celsius3);
 	}	
 	
 		public static void displayAverage(double average)  
